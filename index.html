@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hygge</title>
+
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: #6e5773;
+        color: #dbbfad;
+        font-size: 18px;
+        font-family: "Courier New", Courier, monospace;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background: #dbbfad;
+        color: #6e5773;
+        cursor: pointer;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        background: #f8f7f7;
+        border-radius: 4px;
+      }
+
+      .background-knowledge {
+        background: #ebd5d5;
+        display: block;
+        padding: 10px 20px;
+        border-radius: 6px;
+        margin: 5px 10px;
+        line-height: 2;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .cta {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #685454;
+        line-height: 125%;
+        display: block;
+        padding: 10px 20px;
+        border-radius: 6px;
+        margin: 5px 10px;
+      }
+
+      .example-image {
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+        border-radius: 4px;
+      }
+
+      .example-paragraph {
+        text-align: center;
+        margin: 5px 10px;
+        line-height: 150%;
+        padding: 10px 20px;
+      }
+
+      .example-text {
+        text-align: center;
+      }
+
+      .example-image-text {
+        background: #ffffff;
+        display: block;
+        padding: 25px 20px 10px 20px;
+        border-radius: 6px;
+        margin: 5px 10px;
+        transition: all 200ms ease-in-out;
+      }
+
+      .example-image-text:hover {
+        background: #ebd5d5;
+        display: block;
+        padding: 25px 20px 10px 20px;
+        border-radius: 6px;
+        margin: 5px 10px;
+      }
+
+      .footer {
+        text-align: center;
+        background: linear-gradient(
+          45deg,
+          rgb(251, 248, 238) 0%,
+          rgb(240, 222, 246) 100%
+        );
+        max-width: 100%;
+        padding: 10px 10px;
+        margin: 0;
+      }
+
+      .institute {
+        text-decoration: none;
+        color: #6e5773;
+      }
+
+      .linkedin {
+        text-decoration: none;
+        color: #6e5773;
+      }
+
+      .navbar-entries {
+        color: #d9bca9;
+        padding-right: 50px;
+        transition: all 200ms ease-in-out;
+        display: inline-block;
+        text-decoration: none;
+      }
+
+      .navbar-entries:hover {
+        color: #6e5773;
+        cursor: pointer;
+      }
+
+      .topic-overview {
+        text-align: center;
+        padding: 20px 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div>
+          <a href="#home">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/653/original/Low_Resolution_Logo_-_Transparent_Background.png?1665069985"
+              alt="Lune company logo"
+              width="50"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="#health" class="navbar-entries">
+            <strong>Health</strong>
+          </a>
+          <a href="#lifestyle" class="navbar-entries">
+            <strong>Lifestyle</strong>
+          </a>
+          <a href="#community" class="navbar-entries">
+            <strong>Community</strong>
+          </a>
+        </div>
+      </nav>
+      <div class="topic-overview">
+        <h1>Hygge</h1>
+        <hr />
+        <h2>/ˈh(j)uːɡə/ hue·guh</h2>
+      </div>
+      <div class="background-knowledge">
+        <span>
+          <h3>What is <em>hygge</em>?</h3>
+          <p>
+            The Danish concept of hygge is hard to translate, but in general it
+            means taking time away from the daily rush to enjoy the good things
+            in life. It's a mood of coziness and "comfortable conviviality" and
+            stems from the need to hunker down in those long and cold Danish
+            winters. Hygge often takes place with family and friends, but you
+            can also hygge (verb) alone, too.
+          </p>
+        </span>
+        <span>
+          <h3>Is <em>hygge</em> linked to happiness?</h3>
+          <p>
+            In international surveys, Denmark regularly ranks in the top 3
+            happiest countries in the world. Social equality and community
+            spirit certainly play a huge part in bolstering Denmark's position
+            in the rankings - as is also the case for other Scandinavian and
+            Nordic countries. But the cultural differences between these places
+            are what draw the defining line here, with hygge helping to put
+            Denmark ahead of the rest.
+          </p>
+        </span>
+        <span>
+          <h3>Research</h3>
+          <p>
+            Meik Weiking, CEO of
+            <a
+              href="https://www.happinessresearchinstitute.com"
+              target="_blank"
+              class="institute"
+              ><em>The Happiness Research Institute</em></a
+            >
+            located in Denmark, has been a vocal advocate of the practice of
+            hygge. His books and publications have helped to transform the
+            concept from a cultural curiosity to a lifestyle adopted by people
+            the world over.
+          </p>
+        </span>
+      </div>
+
+      <div class="example-paragraph">
+        <h3>How do you create a hygge-friendly environment?</h3>
+        <p>
+          Surround yourself with things that make you feel calm and contented -
+          minimise screen time and try to step away from stressors. It's the
+          feeling, not the cause that's important.
+        </p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/818/original/candle_holder.png?1665240219"
+          alt="candle"
+          class="example-image"
+        />
+        <p class="example-text">Candles and low lighting</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/821/original/blanket.jpeg?1665240993"
+          alt="blanket"
+          class="example-image"
+        />
+        <p class="example-text">Blankets</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/820/original/socks.jpeg?1665240636"
+          alt="socks"
+          class="example-image"
+        />
+        <p class="example-text">Comfy clothes</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/819/original/plant.png?1665240237"
+          alt="plant"
+          class="example-image"
+        />
+        <p class="example-text">Bring the outdoors in</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/855/original/cooking-pot-symbol-vector-3305665.jpeg?1665253239"
+          alt="pot"
+          class="example-image"
+        />
+        <p class="example-text">Cooking your favourite meal</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/854/original/open-book-line-icon-concept-book-vector-22939405.jpeg?1665253066"
+          alt="book"
+          class="example-image"
+        />
+        <p class="example-text">Reading a good book</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/816/original/Screenshot_2022-10-08_at_15.32.23.png?1665239585"
+          alt="outline of smiling cat"
+          class="example-image"
+        />
+        <p class="example-text">Cuddling up with a pet</p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/825/original/friends.jpeg?1665241834"
+          alt="holding hands"
+          class="example-image"
+        />
+        <p class="example-text">
+          Spending quality time with friends and family
+        </p>
+      </div>
+      <div class="example-image-text">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/047/827/original/v881-mynt-61_1_1.jpeg?1665242121"
+          alt="woman meditating"
+          class="example-image"
+        />
+        <p class="example-text">Meditating and being mindful</p>
+      </div>
+      <br />
+      <div class="cta">
+        <h4>
+          We could all use a bit more happy in our lives.<br />Subscribe to our
+          newsletter and receive hyggelig suggestions for a cosier everyday.
+        </h4>
+      </div>
+      <button><strong>Subscribe</strong></button>
+      <hr />
+      <p class="footer">
+        Designed & Coded by Rosie Randall |
+        <a
+          href="https://www.linkedin.com/in/rosie-randall-162887173/"
+          target="_blank"
+          class="linkedin"
+          >LinkedIn</a
+        >
+      </p>
+    </div>
+    <script>
+      function subscribe() {
+        let name = prompt("What's your first name?");
+        let email = prompt("What's your email address?");
+
+        if (name.length > 0 && email.length > 5) {
+          let h4 = document.querySelector("h4");
+          h4.innerHTML =
+            "Thank you " +
+            name +
+            ", you've successfully subscribed to Lune's monthly newsletter!";
+        } else {
+          alert(
+            "Woops, we didn't quite catch that! Please re-enter your details to confirm your subscription!"
+          );
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", subscribe);
+    </script>
+  </body>
+</html>
